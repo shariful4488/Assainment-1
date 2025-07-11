@@ -164,3 +164,85 @@ body{
     font-size: 12px;
     margin-top: 0px;
 }
+
+/* Focus Section */
+.focus-section{
+    background-color: white;
+    border-radius: 14px;
+    margin: 100px 150px;
+}
+.focus-content{
+    padding: 5px 200px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.focus-description{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.focus-img-bg{
+    border-radius: 48o=px;
+    height: 360px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    }
+
+/* Touch Section */
+.touch-section{
+    display: flex;
+    gap: 100px;
+    padding: 0px 150px;
+    align-items: center;
+}
+.touch-content{
+    width: 50%;
+}
+.touch-title{
+    font-size: 90px;
+    font-weight: 500px;
+}
+.label-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.touch-section input[type="email"],.touch-section input[type="text"]{
+    background-color: white;
+    padding: 20px;
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20p;
+    margin-top: 10px;
+}
+.touch-section textarea{
+    background-color: white;
+    height: 120px;
+    padding: 20px 30px;
+    width: 80%; 
+    border: none;
+}
+.btn-primary-1{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 90%;
+}
+.btn-primary-1:hover{
+    background-color: aquamarine;
+    color: #252432;
+    border: 2px solid #4E47FF;
+
+}
