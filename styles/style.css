@@ -1,74 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0px;
+    padding: 0px;
     background-color: #f5f8ff;
 }
 
-.body {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+
+
+.body-style{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.logo{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 34px;
-    color: #4E47FF;
-    font-weight: 900;
 
+.style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-/* Button */
-
-
-.btn-primary {
+/* style */
+.btn-primary{
     background-color: #4E47FF;
     font-size: 16px;
     font-weight: bold;
     color: white;
     padding: 12px 36px;
     border: none;
-    border-radius: 12px;
-
+    border-radius: 10px;
 }
-
-.btn-primary:hover {
-    background-color: #3b3bff;
-    cursor: pointer;
-    color: bisque;
+.btn-primary:hover{
+    background-color: white;
+    color: #252432;
     border: 2px solid #4E47FF;
 }
-.hero-container {
-    text-align: center;
-    
+.text-align{
+    text-align:center;
 }
-/* Navber Section */
-.header-container {
+/* Navbar Section */
+.content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 150px;
 }
-
+.nav-title{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 900;
+}
 /* Banner Section */
-
 .background-img{
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
     margin: 0px;
-
 }
-
-.content-title {
+.content-title{
     color: #252432;
     font-size: 65px;
     font-weight: bold;
 }
-
-.hero-container{
+.hero-content{
     margin-top: 100px;
 }
+/* Main Section */
+.action-section{
+    display: flex;
+    gap: 100px;
+    padding: 100px 140px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-description{
+    color: #252432;
+    font-size: 24px;
+}
+.action-img{
+    border-radius: 48px;
+}
 
+/* Productive Section*/
+.productive-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 150px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding: 50px 110px;
+}
+.user-title {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
 
