@@ -246,3 +246,28 @@ body{
     border: 2px solid #4E47FF;
 
 }
+
+/* Footer section */
+footer{
+    background-color: white;
+    height: 300px;
+}
+.logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+.footer-description{
+    margin: 0px 370px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 370px 20px 370px;
+}
+.footer-content a{
+    text-decoration:none ;
+    color: #252432;
+}
